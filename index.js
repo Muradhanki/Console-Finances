@@ -116,3 +116,6 @@ for (let i = 0; i < finances.length; i++) {
       }
     }
   }
+
+  // Calculate the average change in profit/loss
+  let averageChange = (changes.reduce((a, b) => a + b) / (totalMonths - 1)).toFixed(2);
