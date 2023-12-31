@@ -104,3 +104,8 @@ for (let i = 0; i < finances.length; i++) {
       let change = finances[i][1] - finances[i - 1][1];
       // Push the change to the changes array
       changes.push(change);
+      
+      // If the change is greater than the current greatest increase, update the greatest increase
+      if (change > greatestIncrease.amount) {
+        greatestIncrease = { date: finances[i][0], amount: change };
+      }
