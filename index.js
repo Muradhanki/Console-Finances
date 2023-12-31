@@ -94,3 +94,7 @@ let changes = [];
 let greatestIncrease = { date: "", amount: 0 };
 let greatestDecrease = { date: "", amount: 0 };
 
+// Loop through the finances array
+for (let i = 0; i < finances.length; i++) {
+    // Add the profit/loss of each month to the total
+    totalProfitLoss += finances[i][1];
