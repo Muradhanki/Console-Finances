@@ -119,3 +119,12 @@ for (let i = 0; i < finances.length; i++) {
 
   // Calculate the average change in profit/loss
   let averageChange = (changes.reduce((a, b) => a + b) / (totalMonths - 1)).toFixed(2);
+
+  // Print the financial analysis to the console using the concat() method
+  console.log("Financial Analysis".concat("\n----------------"));
+  console.log("Total Months: ".concat(totalMonths));
+  console.log("Total: $".concat(totalProfitLoss));
+  console.log("Average Change: ".concat(averageChange));
+  console.log("Greatest Increase in Profits/Losses: ".concat(greatestIncrease.date, " ($", greatestIncrease.amount, ")"));
+  console.log("Greatest Decrease in Profits/Losses: ".concat(greatestDecrease.date, " ($", greatestDecrease.amount, ")"));
+
