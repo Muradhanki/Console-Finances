@@ -98,3 +98,9 @@ let greatestDecrease = { date: "", amount: 0 };
 for (let i = 0; i < finances.length; i++) {
     // Add the profit/loss of each month to the total
     totalProfitLoss += finances[i][1];
+
+    // Calculate the change in profit/loss from the previous month (skip the first month since there's no previous month)
+    if (i > 0) {
+      let change = finances[i][1] - finances[i - 1][1];
+      // Push the change to the changes array
+      changes.push(change);
