@@ -22,48 +22,49 @@ https://muradhanki.github.io/Bootstrap-Portfolio/
 
 Hi everyone! This is Muradhan. I am a construction project manager of 10 years whom always had an interest overt the IT industry. Finally decided to make the switch, and started the EdX's Front end development boot camp to switch his field of work. 
 
-In this assignment, I'll be building my portfolio layout using the Bootstrap CSS Framework. We have been asked to follow the template below for the reference.
-![Screenshot](https://github.com/Muradhanki/Bootstrap-Portfolio/blob/main/images/MK_Week_3_project.jpg "Web application Screen Shot")
+In this assignment, I am tasked with creating code for analyzing the financial records of a company. I'll be building analyzing tool using the JavaScript Framework. We have been asked to follow the template below for the reference.
+Financial Analysis 
+----------------
+Total Months: 86
+Total: $38382578
+Average Change: -2315.12
+Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
+Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
+
+![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Website%20main%20page.jpg "Web console application Screen Shot")
+
+To get to see the results in the console menu, follow these simple example steps please.
+
+* Step 1: go to   (https://muradhanki.github.io/Console-Finances/) with your favorite web borwser.
+
+![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Website%20main%20page.jpg "Web application Screen Shot")
+
+* Step 2: Right click and select the inspect option.
+
+![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/rigth%20click%20to%20Inspect%20Menu.jpg "Web application Screen Shot")
+
+* Step 3: Select the console tab.
+
+![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Select%20console.jpgg "Web application Screen Shot")
+
+* Step 4: Preview the console data 
+
+![Screenshot](https://github.com/Muradhanki/Console-Finances/blob/main/images/Console%20data%20visible.jpg "Web application Screen Shot")
  
-Being a a future front-end developer, I was in need of an portfolio to showcase my projects to prospective clients.
+Being a a future front-end developer, I was in need of final code to run the print the analysis to the console by using JavaScript.
 
-* Using Bootstrap, recreate your portfolio site with the following items:
+* The total number of months included in the dataset.
 
-* The website should include the following bootstrap components:
+* The net total amount of Profit/Losses over the entire period.
 
-* A Navigation bar
+* The average of the changes in Profit/Losses over the entire period.
 
-* A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
+* You will need to track what the total change in Profit/Losses are from month to month and then find the average.
+(Total/(Number of months - 1))
 
-* Include links that are applicable to your portfolio.
+* The greatest increase in Profit/Losses (date and difference in the amounts) over the entire period.
 
-* Links should navigate to the appropriate sections
-A hero section
-
-A jumbotron featuring your picture, your name, and any other information you'd like to include.
-A work section
-
-* A section displaying your work in grid.
-
-If you need to use placeholder image use: https://placehold.co/
-Use bootstrap cards for each project.
-
-The description should give a brief overview of the work.
-Each project will eventually link to your class project work!
-
-* A skills section
-
-List out the skills you expect to learn from the bootcamp.
-An about / contact section.
-
-* An "About Me" section in the same row.
-* A footer section.
-
-All hyperlinks should have a hover effect.
-
-All buttons should display a box shadow upon hover.
-
-Your Bootstrap solution should minimize use of media queries.
+* The greatest decrease in Profit/Losses (date and difference in the amounts) over the entire period.
 
 ## Built With
 
@@ -71,8 +72,9 @@ Languages that has been used to code:
 
 * [HTML]()
 * [CSS]()
+* [JavaScript]()
 * [Visual Studio Code](https://code.visualstudio.com/)
-* [Bootstrap](https://getbootstrap.com/)
+
 
 ## Getting Started
 
@@ -83,7 +85,7 @@ To get a local copy up and running follow these simple example steps.
 1. Fire up your GitBash console and copy the line below
 
 2. 
-git clone git@github.com:Muradhanki/Bootstrap-Portfolio.git
+git clone git@github.com:Muradhanki/Console-Finances.git
 
 ![Screenshot](https://github.com/Muradhanki/Bootstrap-Portfolio/blob/main/images/git%20clone%20ss.jpg "Git Bash Installation")
 
