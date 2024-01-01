@@ -89,7 +89,7 @@ var finances = [
 
 // Initialize variables to store total months, total profit/loss, changes, greatest increase and decrease.
 let totalMonths = finances.length;
-let totalProfitloss = 0;
+let totalProfitLoss = 0;
 let changes = [];
 let greatestIncrease = { date: "", amount: 0 };
 let greatestDecrease = { date: "", amount: 0 };
